@@ -52,7 +52,7 @@ function hello() {
         box3.append(icon);
         icon.addEventListener('click', colls);
     }
-    if (counts === 6) {
+    if (counts === 60) {
         box3.remove();
         clearInterval(clears);
         let divs = document.createElement('div');
